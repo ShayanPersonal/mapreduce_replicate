@@ -1,0 +1,6 @@
+MapReduce [1] is a simple programming model that is widely used to process
+big data in large clusters. A programmer writes a map function that processes
+key/value pairs to generate intermediate results of key/value pairs and a reduce
+function that aggregates the intermediate results from different mappers
+to calculate the final results. It is important to point out that the end-to-end
+computation can be composed of multiple map/reduce rounds.

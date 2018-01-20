@@ -1,0 +1,13 @@
+In this assignment, you are required to implement the simplest word count
+example as an application of map/reduce. Assume we have multiple text files
+and we want to count the occurrence of each word to determine the most popular
+words in group of documents. You have multiple computing nodes and each
+node is running multiple processes to process these files. You are required to implement
+a Command Line Interface (CLI) where clients can submit files to your
+map, reduce, and replicate processes. You are required to implement the MapReduce
+Replicate assingment in a Cloud environment, eg, UCSB’s Eucalyptus,
+or any other publically available cloud, such as AWS, AZURE, Google Cloud
+Engine, etc. Figure 1 illustrates a generic design for the map/reduce replicate
+architecture. In Section 2, we explain the details of the architecture design components.
+In Section 3, we explain the details of the client API. Milestones are
+listed in Section 4 and submission guidelines in Section 5.
